@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function(){
-    Test::factory()->count(3)->make();
     $tests = Test::all();
     return $tests;
 });

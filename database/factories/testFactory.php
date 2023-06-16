@@ -18,7 +18,7 @@ class testFactory extends Factory
     {
         return [
             'name' => fake()->name(),
-            'description' => fake()->text(100),
+            'message' => fake()->text(100),
         ];
     }
 }
